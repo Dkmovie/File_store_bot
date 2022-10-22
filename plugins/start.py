@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
                     ],
                     [   
                         InlineKeyboardButton("join group", url="https://t.me/DK_HDmovie")
-                    ]
+                    ],
                     [
                         InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data = "about"),
                         InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
