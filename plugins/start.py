@@ -93,7 +93,7 @@ async def start_command(client: Client, message: Message):
                         InlineKeyboardButton("𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴", url="https://t.me/DK_Gru")                     
                     ],
                     [
-                        InlineKeyboardButton("𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴", url="https://t.me/DK_HDmovie")                     
+                        InlineKeyboardButton("join_group", url="https://t.me/DK_HDmovie")                     
                     ],
                     [
                         InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data = "about"),
