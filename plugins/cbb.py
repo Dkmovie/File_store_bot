@@ -12,7 +12,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
             text = f"<b>╭━━━━━━━━━━━━━━━➣\n┣⪼ Creator : <a href='tg://user?id={OWNER_ID}'>Ravi kohli</a>\n┣⪼ Language : Python3\n┣⪼ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n┣⪼ Source Code : <a href='https://github.com/Dkmovie/OP-Files-Store-Bot'>OP-File Store Bot</a>\n┣⪼ Channel : <a href='https://t.me/DK_Gru'>DK_movie</a>\n┣⪼ how to mack bot : <a href='https://youtu.be/lIweNNObiy0'>Opus Techz</a>\n╰━━━━━━━━━━━━━━━➣</b>",
             disable_web_page_preview = True,
-            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='youtube.com/OpusTechz') ] ] ),
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
@@ -27,3 +26,4 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except:
             pass
+            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='youtube.com/OpusTechz') ] ] ),
