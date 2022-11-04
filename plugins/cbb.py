@@ -27,3 +27,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         except:
             pass
             reply_markup = InlineKeyboardMarkup(
+                  [
+                    [
+                        InlineKeyboardButton("🍁JOIN CHANNEL🍁", url="https://t.me/DK_Gru")                     
+                    ],
