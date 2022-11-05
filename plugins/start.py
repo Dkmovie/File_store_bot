@@ -120,7 +120,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻",
+                "🌹1 JOIN CHANNEL 🌹",
                 url = client.invitelink)
         ]
     ]
@@ -128,7 +128,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = '𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽',
+                    text = '🌹2 PRASS ME 🌹',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
