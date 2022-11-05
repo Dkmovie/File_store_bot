@@ -114,12 +114,6 @@ async def start_command(client: Client, message: Message):
             quote = True
         )
         return
-    else:
-        reply_markup = InlineKeyboardMarkup(
-            [
-                    [
-                        InlineKeyboardButton("🍁JOIN CHANNEL🍁", url="https://t.me/DK_Gru")                     
-                    ],
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
